@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+* {
+    font-family: 'Titillium Web';
+    box-sizing: border-box;
+}
+
 body{
     background-color: #ddddde;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    background-color: #222b3c;
+    align-items: center;
+    height: auto;
+    justify-content: space-around;
+    padding: 10px;
+    margin: -8px;
+    list-style-type: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a{
+    color: #f05a21;
+    text-decoration: none;
+}
+a:hover{
+    color: #ddddde;
+}
+#aktiv{
+    font-weight: bolder;
+    color: #ddddde;
 }

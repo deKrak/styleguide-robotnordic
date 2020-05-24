@@ -40,3 +40,26 @@ p{
     margin: 0 0 0 50px;
     line-height: 1.8;
 }
+
+.button{
+    background-color: #f05a21;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: transparent;
+    padding: 14px 0px 14px 0px;
+    font-size: 20px;
+    width: 210px;
+    text-align: center;
+}
+.knaplink{
+    display: flex;
+    justify-content: start;
+    text-decoration: none;
+  }
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

@@ -89,3 +89,14 @@ h5{
     width: 180px;
     height: 64px;
   }
+  .iknap{
+    background-color: #222b3c; 
+    color: #ffffff;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+    border-color: transparent;
+    font-size: 25px;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+}

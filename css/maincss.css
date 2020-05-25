@@ -295,8 +295,8 @@ h5{
   select {
     width: 232px;
     position: absolute;
-    left: 18%;
-    margin-top: -40px;
+    left: 63px;
+    margin-top: 0px;
     border: none;
     font-size: 20px;
     background-color: #222b3c;
@@ -332,7 +332,6 @@ h5{
     background-color: #f05a21;
     cursor: pointer;
     color: #fff;
-    top: -3px;
   }
   
   

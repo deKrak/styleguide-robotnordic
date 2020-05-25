@@ -197,3 +197,152 @@ h5{
     width: 340px;
     height: 74px;
 }
+
+/*drop down the container must be positioned relative:*/
+.custom-select {
+    position: relative;
+        
+    
+  }
+  
+  .custom-select select {
+    display: none; /*hide original SELECT element:*/
+  }
+  
+  .select-selected {
+    background-color:#f05a21;
+    height: 50px;
+    border-radius: 5px;
+  }
+  
+  /*style the arrow inside the select element:*/
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 20px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  
+  }
+  
+  /*point the arrow upwards when the select box is open (active):*/
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #ddddde transparent;
+    top: 14px;
+  }
+  
+  /*style the items (options), including the selected item:*/
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent #ddddde transparent;
+    cursor: pointer;
+    user-select: none;
+    font-size: 20px;
+  
+  }
+  
+  /*style items (options):*/
+  .select-items {
+    position: absolute;
+    background-color: #222b3c;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    top: 47px;
+    max-height:245px;
+    overflow:scroll; 
+    border-radius: 5px;
+    margin-top: 5px;
+
+  }
+
+  
+  /*hide the items when the select box is closed:*/
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: #f05a21;
+  }
+
+
+  .skabel {
+    text-align: center;
+  }
+  
+    .skabelon::placeholder {
+      color: #fff;
+  }
+  
+  .skabelon {
+    width: 200px;
+    height: 40px;
+    padding: 2px 20px 2px 2px;
+    border: 1px solid #f05a21;
+    background-color: #f05a21;
+    color: #fff;
+    text-align: right;
+    margin-left: 5px;
+  }
+  
+  select {
+    width: 232px;
+    position: absolute;
+    left: 18%;
+    margin-top: -40px;
+    border: none;
+    font-size: 20px;
+    background-color: #222b3c;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .ddtext {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ddddde;
+    padding-left: 20px;
+  }
+  
+  datalist {
+    display: none;
+  }
+  
+  option {
+    padding: 3px;
+  }
+  
+  option:hover {
+    background-color: #f05a21;
+  }
+  
+  .pilskabelon {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: -12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f05a21;
+    cursor: pointer;
+    color: #fff;
+    top: -3px;
+  }
+  
+  
+  /* to hide datalist arrow in webkit */
+  
+  input::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+  
+  #skabelonnavn{
+    text-align: right;
+    padding: 10px;
+  }

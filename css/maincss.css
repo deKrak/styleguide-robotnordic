@@ -114,7 +114,6 @@ h5{
     margin: 0 0 0 -43px;
 }
 
-<<<<<<< HEAD
 .farvegruppe {
     display: flex;
     flex-wrap: wrap;
@@ -192,9 +191,9 @@ h5{
 .farveover {
     font-weight: bold;
     font-size: 20px;
-=======
+}
+
 .footer{
     width: 340px;
     height: 74px;
->>>>>>> a1db5f33542004d050559603570a54bb6a1e508f
 }

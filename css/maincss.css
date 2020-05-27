@@ -195,7 +195,8 @@ h5{
 
 .footer{
     width: 340px;
-    height: 74px;
+    height: 340px;
+    margin-top: -80px;
 }
 
 /*drop down the container must be positioned relative:*/
